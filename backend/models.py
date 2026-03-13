@@ -23,3 +23,4 @@ class ComplianceReport(BaseModel):
     findings: List[Finding] = Field([], description="List of gaps or conflicts found")
     summary: str = Field(..., description="A 1-2 sentence high-level summary of the compliance check")
     primary_duo_tags: List[DUOMapping] = Field([], description="The primary data use tags interpreted from the DUL")
+    reasoning_trace: List[str] = Field([], description="Step-by-step thinking of the agent loop")

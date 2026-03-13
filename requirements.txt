@@ -8,5 +8,8 @@ langchain-huggingface
 sentence-transformers
 faiss-cpu
 pypdf
+pymupdf4llm
 python-dotenv
 pydantic
+langgraph
+pytest
