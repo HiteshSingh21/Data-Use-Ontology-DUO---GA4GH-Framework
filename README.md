@@ -35,7 +35,7 @@ graph TD
         Parser --> MetaStore[(Metadata JSON Store)]
     end
     
-    subgraph Multi-Agent Reasoning Loop (LangGraph)
+    subgraph marl ["Multi-Agent Reasoning Loop (LangGraph)"]
         UI -->|DUL Text| Agent1((Extraction Agent))
         
         Agent1 -->|Extracts: Intent & Size| Agent2((Compliance Agent))
